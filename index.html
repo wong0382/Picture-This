@@ -17,17 +17,48 @@
     </div>
     <section>
       <picture>
-        <source srcset="
-        images/museum-square-480px.jpg 1x,
-        images/museum-square-640px.jpg 2x,
-        images/museum-square-800px.jpg 3x"
-        media="(min-width: 960px)">
+        <!-- lanscape image for viewport 320px -->
         <source srcset="
         images/museum-landscape-320px.jpg 1x,
-        images/museum-landscape-480px.jpg 2x,
-        images/museum-landscape-720px.jpg 3x,
-        images/museum-landscape-960px.jpg 4x"
-        media="(max-width: 959px)">   
+        images/museum-landscape-640px.jpg 2x,
+        images/museum-landscape-960px.jpg 3x,"
+        media="(max-width: 479px)">
+        <!-- lanscape image for viewport 480px -->
+        <source srcset="
+        images/museum-landscape-480px.jpg 1x,
+        images/museum-landscape-960px.jpg 2x,
+        images/museum-landscape-1440px.jpg 3x,"
+        media="(min-width: 480px)">
+        <!-- lanscape image for viewport 720px -->
+        <source srcset="
+        images/museum-landscape-720px.jpg 1x,
+        images/museum-landscape-1440px.jpg 2x,
+        images/museum-landscape-2160px.jpg 3x,"
+        media="(min-width: 720px)">
+        <!-- lanscape image for viewport 960px -->
+        <source srcset="
+        images/museum-landscape-960px.jpg 1x,
+        images/museum-landscape-1920px.jpg 2x,
+        images/museum-landscape-2880px.jpg 3x,"
+        media="(min-width: 960px)">
+        <!-- square image for viewport 960px -->
+        <source srcset="
+        images/museum-square-480px.jpg 1x,
+        images/museum-square-960px.jpg 2x,
+        images/museum-square-1440px.jpg 3x"
+        media="(max-width: 1279px)">
+        <!-- square image for viewport 1280px -->
+        <source srcset="
+        images/museum-square-640px.jpg 1x,
+        images/museum-square-1280px.jpg 2x,
+        images/museum-square-1920px.jpg 3x"
+        media="(min-width: 1280px)">
+        <!-- square image for viewport 1600px -->
+        <source srcset="
+        images/museum-square-800px.jpg 1x,
+        images/museum-square-1600px.jpg 2x,
+        images/museum-square-2400px.jpg 3x"
+        media="(min-width: 1600px)">  
         <img src="images/museum-landscape-960px.jpg" alt="placeholder">
       </picture>  
     </section>
